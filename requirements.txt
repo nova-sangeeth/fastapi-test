@@ -15,8 +15,7 @@ h11==0.10.0
 h2==4.0.0
 hpack==4.0.0
 html5lib==1.0.1
-Hypercorn==0.10.2
-hyperframe==6.0.0
+
 idna==2.8
 ipaddr==2.2.0
 iso8601==0.1.13
