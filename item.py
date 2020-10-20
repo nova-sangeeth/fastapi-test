@@ -34,6 +34,8 @@ origins = [
     "http://localhost:8080",
     "http://localhost:8081",
     "http://localhost:8000",
+    "https://main-fastapi.herokuapp.com/",
+    "https://main-fastapi.herokuapp.com/docs",
 ]
 
 app.add_middleware(
