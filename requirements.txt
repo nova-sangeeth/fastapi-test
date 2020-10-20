@@ -15,3 +15,5 @@ starlette==0.12.9
 uvicorn==0.11.2
 websockets==8.1
 wrapt==1.11.2
+tortoise==0.1.1
+tortoise-orm==0.16.16
