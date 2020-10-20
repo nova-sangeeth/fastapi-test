@@ -54,6 +54,12 @@ async def create_job(job: JobsIn_Pydantic):
 
 
 # show all the jobs.
+@app.get("/")
+async def main():
+    return {"Hello There🤗"}
+
+
+# show all the jobs.
 @app.get("/jobs")
 async def get_all_jobs():
     return await Jobs_Pydantic.from_queryset(Jobs.all())
