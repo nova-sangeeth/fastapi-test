@@ -69,7 +69,9 @@ async def get_job_by_id(job_id: int):
 @app.get("/jobs/{job_id}/apply")
 async def get_job_by_id(job_id: int):
 
-    return await Jobs_Pydantic.from_queryset_single(Jobs.get(id=job_id))
+    return {
+        "Thanks for applying to the Job, We will get back to soon if you are fit to the job. :)"
+    }
 
 
 # delete_by_id
